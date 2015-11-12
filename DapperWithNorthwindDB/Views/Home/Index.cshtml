@@ -1,0 +1,19 @@
+﻿@using ModelLayer
+@model List<Region>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Get All Regions</h2>
+
+<p>@Html.ActionLink("Create a new Region", "CreateRegion", "Home")</p>
+
+@foreach (Region region in Model)
+{
+    <ul class="list-group">
+        <a href="/Home/RetrieveRegion/@region.RegionID">
+            <li class="list-group-item">@region.RegionDescription</li>
+        </a>
+    </ul>
+}

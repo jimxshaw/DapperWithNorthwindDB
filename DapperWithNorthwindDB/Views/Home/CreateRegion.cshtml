@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "CreateRegion";
+}
+
+<p>@Html.ActionLink("Back to Regions", "Index", "Home")</p>
+
+<h2>CreateRegion</h2>
+
+@using (Html.BeginForm("CreateRegionPost", "Home", FormMethod.Post))
+{
+    <div class="form-group">
+        <label>New Region Description</label>
+        <input type="text" name="regionDescription" class="form-control" />
+    </div>
+
+    <br />
+    <br />
+
+    <button type="reset" class="btn btn-warning">Clear</button>
+    <button type="submit" class="btn btn-primary">Add</button>
+}

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperWithNorthwindDB", "DapperWithNorthwindDB\DapperWithNorthwindDB.csproj", "{E7C0BEC9-4123-4EC6-B2E8-F42D317A3687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{55DD6AE4-0976-4122-BC44-1658681AADEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelLayer", "ModelLayer\ModelLayer.csproj", "{008B32EF-E529-49C6-9433-EC3C3D2A52D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7C0BEC9-4123-4EC6-B2E8-F42D317A3687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C0BEC9-4123-4EC6-B2E8-F42D317A3687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C0BEC9-4123-4EC6-B2E8-F42D317A3687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C0BEC9-4123-4EC6-B2E8-F42D317A3687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55DD6AE4-0976-4122-BC44-1658681AADEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55DD6AE4-0976-4122-BC44-1658681AADEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55DD6AE4-0976-4122-BC44-1658681AADEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55DD6AE4-0976-4122-BC44-1658681AADEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{008B32EF-E529-49C6-9433-EC3C3D2A52D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{008B32EF-E529-49C6-9433-EC3C3D2A52D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{008B32EF-E529-49C6-9433-EC3C3D2A52D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{008B32EF-E529-49C6-9433-EC3C3D2A52D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

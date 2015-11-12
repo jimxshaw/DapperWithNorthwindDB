@@ -1,0 +1,21 @@
+﻿@using ModelLayer
+@model Region
+
+@{
+    ViewBag.Title = "RetrieveRegion";
+}
+
+<p>@Html.ActionLink("Back to Region", "Index", "Home")</p>
+
+<h2>@Model.RegionDescription</h2>
+@Html.ActionLink("Edit", "EditRegion", "Home", new { id = @Model.RegionID }, null)
+
+<p>Sed at hendrerit eros. Aliquam nec pulvinar sem. In rhoncus elementum mi, a aliquet justo ultrices nec. Donec tempor faucibus metus at commodo. Integer malesuada nisi nec libero pulvinar fermentum. Curabitur pulvinar mi et risus pharetra efficitur. Suspendisse luctus convallis est ut facilisis. Curabitur consequat ante leo, id consectetur massa sagittis quis. Integer lacinia nec arcu nec sollicitudin. Vivamus interdum eros sed dui commodo, non feugiat nulla congue.</p>
+
+<p>Quisque posuere suscipit augue non iaculis. Nunc eu ex nec ante congue sollicitudin. Pellentesque velit diam, ultrices sed congue eget, tempus vel nisi. Morbi tempus ultrices nisl et malesuada. Quisque rhoncus metus sed elit dignissim, et tempor diam imperdiet. Ut congue dui ut turpis sollicitudin, in vehicula sem tristique. Sed neque nibh, pellentesque et semper sed, dictum vitae erat. Fusce tincidunt, mauris eget posuere convallis, mi sem sollicitudin nulla, non fringilla lacus ex sed lacus.</p>
+
+@using (Html.BeginForm("DeleteRegion", "Home", FormMethod.Post))
+{
+    @Html.Hidden("id", Model.RegionID)
+    <button class="btn btn-danger">Delete</button>
+}

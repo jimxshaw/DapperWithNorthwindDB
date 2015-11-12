@@ -1,0 +1,8 @@
+C:\Users\Apprentice\Desktop\The Software Guild\Exercises\DapperWithNorthwindDB\ModelLayer\bin\Debug\ModelLayer.dll
+C:\Users\Apprentice\Desktop\The Software Guild\Exercises\DapperWithNorthwindDB\ModelLayer\bin\Debug\ModelLayer.pdb
+C:\Users\Apprentice\Desktop\The Software Guild\Exercises\DapperWithNorthwindDB\ModelLayer\bin\Debug\Dapper.dll
+C:\Users\Apprentice\Desktop\The Software Guild\Exercises\DapperWithNorthwindDB\ModelLayer\bin\Debug\Dapper.pdb
+C:\Users\Apprentice\Desktop\The Software Guild\Exercises\DapperWithNorthwindDB\ModelLayer\bin\Debug\Dapper.xml
+C:\Users\Apprentice\Desktop\The Software Guild\Exercises\DapperWithNorthwindDB\ModelLayer\obj\Debug\ModelLayer.csprojResolveAssemblyReference.cache
+C:\Users\Apprentice\Desktop\The Software Guild\Exercises\DapperWithNorthwindDB\ModelLayer\obj\Debug\ModelLayer.dll
+C:\Users\Apprentice\Desktop\The Software Guild\Exercises\DapperWithNorthwindDB\ModelLayer\obj\Debug\ModelLayer.pdb

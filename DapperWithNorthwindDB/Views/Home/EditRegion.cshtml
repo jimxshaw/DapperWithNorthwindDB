@@ -1,0 +1,25 @@
+﻿@using ModelLayer
+@model Region
+
+@{
+    ViewBag.Title = "EditRegion";
+}
+
+<p>@Html.ActionLink("Back to Regions", "Index", "Home")</p>
+
+<h2>Edit a Region</h2>
+
+@using (Html.BeginForm("EditRegionPost", "Home", FormMethod.Post))
+{
+    @Html.HiddenFor(m => m.RegionID)
+    <p>
+        <label>Region Description</label>
+        @Html.TextBoxFor(m => m.RegionDescription)
+    </p>
+
+    <br/>
+    <br/>
+
+    <button type="reset" class="btn btn-warning">Clear</button>
+    <button type="submit" class="btn btn-primary">Add</button>
+}
